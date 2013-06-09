@@ -20,47 +20,45 @@ A new ViewController transition inspired by NatGeo (City Guides by National Geog
 
 ## How to Present a ViewController
 	
-	### Using Storyboard Segue
+### Using Storyboard Segue
 
-		Just simply drag the from Source to Destination and select *nat geo* Segue (see screenshots below)
+	Just simply drag the from Source to Destination and select *nat geo* Segue (see screenshots below)
 
 ![Preview](http://i1102.photobucket.com/albums/g447/michaelhenry119/IOS%20Controls/MHNatGeoViewControllerTransition/ScreenShot2013-06-09at123039PM_zps66f45f08.png)
 
 ![Preview](http://i1102.photobucket.com/albums/g447/michaelhenry119/IOS%20Controls/MHNatGeoViewControllerTransition/ScreenShot2013-06-09at123123PM_zpsd131f70d.png)
 
-	### Present Programmatically
+### Present Programmatically
 
-		Just
+Just
 
-			#import "MHNatGeoViewControllerTransition.h"
+	#import "MHNatGeoViewControllerTransition.h"
 
-		and then
+and then
 
-			   [self presentNatGeoViewController:demoViewController];
+	[self presentNatGeoViewController:demoViewController];
 
-			or you can use the completion block,
+or you can use the completion block,
 
-				[self presentNatGeoViewController:demoViewController completion:^(BOOL finished) {
-			        NSLog(@"Present complete!");
-			    }];
+	[self presentNatGeoViewController:demoViewController completion:^(BOOL finished) {		
+		NSLog(@"Present complete!");
+	}];
 
 ## How to dismiss a ViewController
+
+Just
+
+	#import "MHNatGeoViewControllerTransition.h"
+
+and then
 	
-	Just
+	[self dismissNatGeoViewController];
 
-		#import "MHNatGeoViewControllerTransition.h"
+or you can use the completion block,
 
-	and then
-
-			    [self dismissNatGeoViewController];
-
-			or you can use the completion block,
-
-				[self dismissNatGeoViewControllerWithCompletion:^(BOOL finished) {
-			        NSLog(@"Dismiss complete!");
-			    }];
-
-
+	[self dismissNatGeoViewControllerWithCompletion:^(BOOL finished) {	
+		NSLog(@"Dismiss complete!");
+    }];
 
 
 # Is it Easy? :)
