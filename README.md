@@ -5,14 +5,14 @@ A new ViewController transition inspired by NatGeo (City Guides by National Geog
 
 # Features
 	
-	Easy integration
+Easy integration
 	
-	Can be use as segue
+Can be use as segue
 
 
 # Requirements
 	
-	Requires either iOS 5.0 and above.
+Requires either iOS 5.0 and above.
 
 
 
@@ -22,7 +22,7 @@ A new ViewController transition inspired by NatGeo (City Guides by National Geog
 	
 ### Using Storyboard Segue
 
-	Just simply drag the from Source to Destination and select *nat geo* Segue (see screenshots below)
+Just simply drag the from Source to Destination and select *nat geo* Segue (see screenshots below)
 
 ![Preview](http://i1102.photobucket.com/albums/g447/michaelhenry119/IOS%20Controls/MHNatGeoViewControllerTransition/ScreenShot2013-06-09at123039PM_zps66f45f08.png)
 
