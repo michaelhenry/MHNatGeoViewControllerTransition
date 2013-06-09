@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993FDE33176436AF00CF623A /* destination.png in Resources */ = {isa = PBXBuildFile; fileRef = 993FDE2F176436AF00CF623A /* destination.png */; };
+		993FDE34176436B000CF623A /* final.png in Resources */ = {isa = PBXBuildFile; fileRef = 993FDE30176436AF00CF623A /* final.png */; };
+		993FDE35176436B000CF623A /* final@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993FDE31176436AF00CF623A /* final@2x.png */; };
+		993FDE36176436B000CF623A /* source.png in Resources */ = {isa = PBXBuildFile; fileRef = 993FDE32176436AF00CF623A /* source.png */; };
+		993FDE39176436CA00CF623A /* destination@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993FDE37176436CA00CF623A /* destination@2x.png */; };
+		993FDE3A176436CA00CF623A /* source@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993FDE38176436CA00CF623A /* source@2x.png */; };
+		99543E001761B6740077A72B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543DFF1761B6740077A72B /* UIKit.framework */; };
+		99543E021761B6740077A72B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543E011761B6740077A72B /* Foundation.framework */; };
+		99543E041761B6740077A72B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543E031761B6740077A72B /* CoreGraphics.framework */; };
+		99543E0A1761B6740077A72B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99543E081761B6740077A72B /* InfoPlist.strings */; };
+		99543E0C1761B6740077A72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99543E0B1761B6740077A72B /* main.m */; };
+		99543E101761B6740077A72B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99543E0F1761B6740077A72B /* AppDelegate.m */; };
+		99543E121761B6750077A72B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99543E111761B6750077A72B /* Default.png */; };
+		99543E141761B6750077A72B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99543E131761B6750077A72B /* Default@2x.png */; };
+		99543E161761B6750077A72B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99543E151761B6750077A72B /* Default-568h@2x.png */; };
+		99543E191761B6750077A72B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99543E171761B6750077A72B /* MainStoryboard.storyboard */; };
+		99543E241761B6760077A72B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543E231761B6760077A72B /* SenTestingKit.framework */; };
+		99543E251761B6760077A72B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543DFF1761B6740077A72B /* UIKit.framework */; };
+		99543E261761B6760077A72B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543E011761B6740077A72B /* Foundation.framework */; };
+		99543E2E1761B6760077A72B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99543E2C1761B6760077A72B /* InfoPlist.strings */; };
+		99543E311761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99543E301761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.m */; };
+		99543E3F1761B6E50077A72B /* MHNatGeoSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99543E3C1761B6E50077A72B /* MHNatGeoSegue.m */; };
+		99543E401761B6E50077A72B /* MHNatGeoViewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 99543E3E1761B6E50077A72B /* MHNatGeoViewControllerTransition.m */; };
+		99543E421761B7000077A72B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99543E411761B7000077A72B /* QuartzCore.framework */; };
+		99543E521761C93E0077A72B /* DemoWithPresentAndDismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99543E511761C93E0077A72B /* DemoWithPresentAndDismissViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99543E271761B6760077A72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99543DF41761B6740077A72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99543DFB1761B6740077A72B;
+			remoteInfo = MHNatGeoViewControllerTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		993FDE2F176436AF00CF623A /* destination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination.png; sourceTree = "<group>"; };
+		993FDE30176436AF00CF623A /* final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = final.png; sourceTree = "<group>"; };
+		993FDE31176436AF00CF623A /* final@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "final@2x.png"; sourceTree = "<group>"; };
+		993FDE32176436AF00CF623A /* source.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = source.png; sourceTree = "<group>"; };
+		993FDE37176436CA00CF623A /* destination@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "destination@2x.png"; sourceTree = "<group>"; };
+		993FDE38176436CA00CF623A /* source@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "source@2x.png"; sourceTree = "<group>"; };
+		99543DFC1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHNatGeoViewControllerTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99543DFF1761B6740077A72B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99543E011761B6740077A72B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99543E031761B6740077A72B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99543E071761B6740077A72B /* MHNatGeoViewControllerTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MHNatGeoViewControllerTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		99543E091761B6740077A72B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99543E0B1761B6740077A72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99543E0D1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHNatGeoViewControllerTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		99543E0E1761B6740077A72B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99543E0F1761B6740077A72B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99543E111761B6750077A72B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		99543E131761B6750077A72B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99543E151761B6750077A72B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		99543E181761B6750077A72B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		99543E221761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHNatGeoViewControllerTransitionDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99543E231761B6760077A72B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		99543E2B1761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MHNatGeoViewControllerTransitionDemoTests-Info.plist"; sourceTree = "<group>"; };
+		99543E2D1761B6760077A72B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99543E2F1761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHNatGeoViewControllerTransitionDemoTests.h; sourceTree = "<group>"; };
+		99543E301761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHNatGeoViewControllerTransitionDemoTests.m; sourceTree = "<group>"; };
+		99543E3B1761B6E50077A72B /* MHNatGeoSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHNatGeoSegue.h; sourceTree = "<group>"; };
+		99543E3C1761B6E50077A72B /* MHNatGeoSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHNatGeoSegue.m; sourceTree = "<group>"; };
+		99543E3D1761B6E50077A72B /* MHNatGeoViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHNatGeoViewControllerTransition.h; sourceTree = "<group>"; };
+		99543E3E1761B6E50077A72B /* MHNatGeoViewControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHNatGeoViewControllerTransition.m; sourceTree = "<group>"; };
+		99543E411761B7000077A72B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99543E501761C93E0077A72B /* DemoWithPresentAndDismissViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoWithPresentAndDismissViewController.h; sourceTree = "<group>"; };
+		99543E511761C93E0077A72B /* DemoWithPresentAndDismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoWithPresentAndDismissViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99543DF91761B6740077A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99543E421761B7000077A72B /* QuartzCore.framework in Frameworks */,
+				99543E001761B6740077A72B /* UIKit.framework in Frameworks */,
+				99543E021761B6740077A72B /* Foundation.framework in Frameworks */,
+				99543E041761B6740077A72B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99543E1E1761B6760077A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99543E241761B6760077A72B /* SenTestingKit.framework in Frameworks */,
+				99543E251761B6760077A72B /* UIKit.framework in Frameworks */,
+				99543E261761B6760077A72B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99543DF31761B6740077A72B = {
+			isa = PBXGroup;
+			children = (
+				99543E3A1761B6E50077A72B /* MHNatGeoViewControllerTransition */,
+				99543E051761B6740077A72B /* MHNatGeoViewControllerTransitionDemo */,
+				99543E291761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests */,
+				99543DFE1761B6740077A72B /* Frameworks */,
+				99543DFD1761B6740077A72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99543DFD1761B6740077A72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99543DFC1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo.app */,
+				99543E221761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99543DFE1761B6740077A72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99543E411761B7000077A72B /* QuartzCore.framework */,
+				99543DFF1761B6740077A72B /* UIKit.framework */,
+				99543E011761B6740077A72B /* Foundation.framework */,
+				99543E031761B6740077A72B /* CoreGraphics.framework */,
+				99543E231761B6760077A72B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99543E051761B6740077A72B /* MHNatGeoViewControllerTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				99543E0E1761B6740077A72B /* AppDelegate.h */,
+				99543E0F1761B6740077A72B /* AppDelegate.m */,
+				99543E171761B6750077A72B /* MainStoryboard.storyboard */,
+				99543E061761B6740077A72B /* Supporting Files */,
+				99543E501761C93E0077A72B /* DemoWithPresentAndDismissViewController.h */,
+				99543E511761C93E0077A72B /* DemoWithPresentAndDismissViewController.m */,
+			);
+			path = MHNatGeoViewControllerTransitionDemo;
+			sourceTree = "<group>";
+		};
+		99543E061761B6740077A72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				993FDE37176436CA00CF623A /* destination@2x.png */,
+				993FDE38176436CA00CF623A /* source@2x.png */,
+				993FDE2F176436AF00CF623A /* destination.png */,
+				993FDE30176436AF00CF623A /* final.png */,
+				993FDE31176436AF00CF623A /* final@2x.png */,
+				993FDE32176436AF00CF623A /* source.png */,
+				99543E071761B6740077A72B /* MHNatGeoViewControllerTransitionDemo-Info.plist */,
+				99543E081761B6740077A72B /* InfoPlist.strings */,
+				99543E0B1761B6740077A72B /* main.m */,
+				99543E0D1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo-Prefix.pch */,
+				99543E111761B6750077A72B /* Default.png */,
+				99543E131761B6750077A72B /* Default@2x.png */,
+				99543E151761B6750077A72B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99543E291761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				99543E2F1761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.h */,
+				99543E301761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.m */,
+				99543E2A1761B6760077A72B /* Supporting Files */,
+			);
+			path = MHNatGeoViewControllerTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		99543E2A1761B6760077A72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99543E2B1761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests-Info.plist */,
+				99543E2C1761B6760077A72B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99543E3A1761B6E50077A72B /* MHNatGeoViewControllerTransition */ = {
+			isa = PBXGroup;
+			children = (
+				99543E3B1761B6E50077A72B /* MHNatGeoSegue.h */,
+				99543E3C1761B6E50077A72B /* MHNatGeoSegue.m */,
+				99543E3D1761B6E50077A72B /* MHNatGeoViewControllerTransition.h */,
+				99543E3E1761B6E50077A72B /* MHNatGeoViewControllerTransition.m */,
+			);
+			name = MHNatGeoViewControllerTransition;
+			path = ../MHNatGeoViewControllerTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99543DFB1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99543E341761B6760077A72B /* Build configuration list for PBXNativeTarget "MHNatGeoViewControllerTransitionDemo" */;
+			buildPhases = (
+				99543DF81761B6740077A72B /* Sources */,
+				99543DF91761B6740077A72B /* Frameworks */,
+				99543DFA1761B6740077A72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHNatGeoViewControllerTransitionDemo;
+			productName = MHNatGeoViewControllerTransitionDemo;
+			productReference = 99543DFC1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99543E211761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99543E371761B6760077A72B /* Build configuration list for PBXNativeTarget "MHNatGeoViewControllerTransitionDemoTests" */;
+			buildPhases = (
+				99543E1D1761B6760077A72B /* Sources */,
+				99543E1E1761B6760077A72B /* Frameworks */,
+				99543E1F1761B6760077A72B /* Resources */,
+				99543E201761B6760077A72B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99543E281761B6760077A72B /* PBXTargetDependency */,
+			);
+			name = MHNatGeoViewControllerTransitionDemoTests;
+			productName = MHNatGeoViewControllerTransitionDemoTests;
+			productReference = 99543E221761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99543DF41761B6740077A72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Henry Pantaleon";
+			};
+			buildConfigurationList = 99543DF71761B6740077A72B /* Build configuration list for PBXProject "MHNatGeoViewControllerTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99543DF31761B6740077A72B;
+			productRefGroup = 99543DFD1761B6740077A72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99543DFB1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo */,
+				99543E211761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99543DFA1761B6740077A72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99543E0A1761B6740077A72B /* InfoPlist.strings in Resources */,
+				99543E121761B6750077A72B /* Default.png in Resources */,
+				99543E141761B6750077A72B /* Default@2x.png in Resources */,
+				99543E161761B6750077A72B /* Default-568h@2x.png in Resources */,
+				99543E191761B6750077A72B /* MainStoryboard.storyboard in Resources */,
+				993FDE33176436AF00CF623A /* destination.png in Resources */,
+				993FDE34176436B000CF623A /* final.png in Resources */,
+				993FDE35176436B000CF623A /* final@2x.png in Resources */,
+				993FDE36176436B000CF623A /* source.png in Resources */,
+				993FDE39176436CA00CF623A /* destination@2x.png in Resources */,
+				993FDE3A176436CA00CF623A /* source@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99543E1F1761B6760077A72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99543E2E1761B6760077A72B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99543E201761B6760077A72B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99543DF81761B6740077A72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99543E0C1761B6740077A72B /* main.m in Sources */,
+				99543E101761B6740077A72B /* AppDelegate.m in Sources */,
+				99543E3F1761B6E50077A72B /* MHNatGeoSegue.m in Sources */,
+				99543E401761B6E50077A72B /* MHNatGeoViewControllerTransition.m in Sources */,
+				99543E521761C93E0077A72B /* DemoWithPresentAndDismissViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99543E1D1761B6760077A72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99543E311761B6760077A72B /* MHNatGeoViewControllerTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99543E281761B6760077A72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99543DFB1761B6740077A72B /* MHNatGeoViewControllerTransitionDemo */;
+			targetProxy = 99543E271761B6760077A72B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99543E081761B6740077A72B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99543E091761B6740077A72B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99543E171761B6750077A72B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99543E181761B6750077A72B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		99543E2C1761B6760077A72B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99543E2D1761B6760077A72B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99543E321761B6760077A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99543E331761B6760077A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99543E351761B6760077A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHNatGeoViewControllerTransitionDemo/MHNatGeoViewControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "MHNatGeoViewControllerTransitionDemo/MHNatGeoViewControllerTransitionDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99543E361761B6760077A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHNatGeoViewControllerTransitionDemo/MHNatGeoViewControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "MHNatGeoViewControllerTransitionDemo/MHNatGeoViewControllerTransitionDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99543E381761B6760077A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHNatGeoViewControllerTransitionDemo.app/MHNatGeoViewControllerTransitionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHNatGeoViewControllerTransitionDemo/MHNatGeoViewControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "MHNatGeoViewControllerTransitionDemoTests/MHNatGeoViewControllerTransitionDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		99543E391761B6760077A72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHNatGeoViewControllerTransitionDemo.app/MHNatGeoViewControllerTransitionDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHNatGeoViewControllerTransitionDemo/MHNatGeoViewControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "MHNatGeoViewControllerTransitionDemoTests/MHNatGeoViewControllerTransitionDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99543DF71761B6740077A72B /* Build configuration list for PBXProject "MHNatGeoViewControllerTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99543E321761B6760077A72B /* Debug */,
+				99543E331761B6760077A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99543E341761B6760077A72B /* Build configuration list for PBXNativeTarget "MHNatGeoViewControllerTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99543E351761B6760077A72B /* Debug */,
+				99543E361761B6760077A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99543E371761B6760077A72B /* Build configuration list for PBXNativeTarget "MHNatGeoViewControllerTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99543E381761B6760077A72B /* Debug */,
+				99543E391761B6760077A72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99543DF41761B6740077A72B /* Project object */;
+}
