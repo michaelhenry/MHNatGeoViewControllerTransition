@@ -1,7 +1,13 @@
 MHNatGeoViewControllerTransition
 ================================
 
-A new ViewController transition inspired by NatGeo (City Guides by National Geographic)
+A new ViewController transition inspired by NatGeo [City Guides by National Geographic](https://itunes.apple.com/us/app/city-guides-by-national-geographic/id592453480?mt=8)
+
+
+# Demo
+
+![Preview](http://i1102.photobucket.com/albums/g447/michaelhenry119/IOS%20Controls/MHNatGeoViewControllerTransition/MHNatGeo_zps8506e2be.gif)
+
 
 # Features
 	
@@ -13,7 +19,6 @@ Can be use as segue
 # Requirements
 	
 Requires either iOS 5.0 and above.
-
 
 
 # Usage
