@@ -1,5 +1,7 @@
 //
 // MHNatGeoViewControllerTransition.h
+// 
+// Version 1.0
 //
 // Copyright (c) 2013 Michael Henry Pantaleon (http://www.iamkel.net). All rights reserved.
 //
